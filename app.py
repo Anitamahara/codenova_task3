@@ -83,8 +83,7 @@ filtered = logic.filter_sales(
     sales, start_date, end_date, countries, customer_type, min_order_value, include_outliers,
 )
 
-# 
-page
+# page
 st.title("Online Retail Dashboard")
 st.caption(f"Showing {len(filtered):,} of {len(sales):,} sales rows. Values are in pounds sterling.")
 
